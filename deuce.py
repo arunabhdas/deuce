@@ -6,5 +6,9 @@ if __name__ == '__main__':
     emp.fullname = 'Jane Doe'
     print(emp.email)
     print(emp.fullname)
+    del emp.fullname
+    print(emp.fullname)
+
+
 
 

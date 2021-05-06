@@ -18,3 +18,10 @@ class Employee:
         self.first = first
         self.last = last
 
+    @fullname.deleter
+    def fullname(self):
+        print('Delete Name!')
+        self.first = None
+        self.last = None
+
+    
